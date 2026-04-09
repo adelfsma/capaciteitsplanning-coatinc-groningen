@@ -407,3 +407,5 @@ with tab3:
         debug_rows.append({"Categorie": "Bestanden", "Omschrijving": f"{row['Bronbestand']} ({row['Bron_week']})", "Waarde": int(row["Aantal_regels_ingelezen"])})
     debug_df = pd.DataFrame(debug_rows)
     st.dataframe(debug_df, use_container_width=True, hide_index=True)
+
+
